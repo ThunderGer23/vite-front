@@ -1,0 +1,8 @@
+.bg-forgotpass-form{
+    background: rgb(116,10,148);
+    background: linear-gradient(180deg, rgba(116,10,148,0.577468487394958) 0%, rgba(116,10,148,0.4290091036414566) 25%, rgba(255,255,255,1) 82%);
+}
+a{
+    text-decoration:none;
+    color: #1c94e0;
+}

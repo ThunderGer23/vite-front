@@ -1,0 +1,15 @@
+.bg-login-form{
+    background: rgb(116,10,148);
+    background: linear-gradient(180deg, rgba(116,10,148,0.577468487394958) 0%, rgba(116,10,148,0.4290091036414566) 25%, rgba(255,255,255,1) 82%);
+}
+a{
+    text-decoration:none;
+    color: #1c94e0;
+}
+.orange{
+    color:#fc9444;
+}
+.message-login{
+    background: rgb(28,148,224);
+    background: linear-gradient(131deg, rgba(28,148,224,0.9891128326330533) 0%, rgba(28,148,224,1) 25%, rgba(255,255,255,1) 82%);
+}
