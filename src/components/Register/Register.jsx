@@ -18,11 +18,11 @@ function Register() {
                                                         <input type           = "text" class="form-control" placeholder="Nombre:" aria-label="Nombre" aria-describedby="basic-addon1" />
                                                     </div>
                                                     <div className            = "input-group mb-4">
-                                                        <span className       = "input-group-text" id="basic-addon2"><i className="fa-regular fa-at" style={{color:'white'}}></i></span>
+                                                        <span className       = "input-group-text" id="basic-addon2"><i className="fa-solid fa-pen" style={{color:'white'}}></i></span>
                                                         <input type           = "text" class="form-control" placeholder="Boleta:" aria-label="Boleta" aria-describedby="basic-addon2" />
                                                     </div> 
                                                     <div className            = "input-group mb-4">
-                                                        <span className       = "input-group-text" id="basic-addon3"><i className="fa-regular fa-at" style={{color:'white'}}></i></span>
+                                                        <span className       = "input-group-text" id="basic-addon3"><i className="fa-solid fa-quote-right" style={{color:'white'}}></i></span>
                                                         <input type           = "text" class="form-control" placeholder="username:" aria-label="username" aria-describedby="basic-addon3" />
                                                     </div> 
                                                     <div className            = "input-group mb-4">
