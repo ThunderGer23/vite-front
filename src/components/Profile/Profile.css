@@ -1,0 +1,4 @@
+.profile-bg {
+    background: rgb(157, 245, 135);
+    background: linear-gradient(177deg, rgba(157, 245, 135, 1) 0%, rgba(167, 255, 99, 1) 25%, rgba(255, 255, 255, 1) 82%);
+}

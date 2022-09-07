@@ -6,3 +6,7 @@ body{
     width: 20%;
     max-width: 80px;
 }
+.bd-vite {
+    display: table-cell;
+    vertical-align: bottom;
+}
