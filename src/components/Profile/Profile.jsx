@@ -16,14 +16,15 @@ function Profile() {
                                                         <div className="input-group mb-4">
                                                             <img className="img-fluid" src="./icons/profile.png" alt="" />
                                                         </div>
-
                                                     </form>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div class="d-grid gap-2 mt-4">
-                                            <button class="btn btn-outline-secondary" type="button"><i className="fa fa-pen orange"></i> Cambiar foto</button>
+                                        <div className="d-grid gap-2 mt-4">
+                                            <button className="btn btn-outline-secondary" type="button">
+                                                <i className="fa fa-pen orange"></i>
+                                                Cambiar foto
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -31,36 +32,48 @@ function Profile() {
                                     <div className="card p-4 rounded-4 profile-bg">
                                         <form action="" className="bt-4 p-lg-2">
                                             <div className="input-group mb-4">
-                                                <span className="input-group-text" id="basic-addon1"><i className="fa-regular fa-user" style={{ color: 'white' }}></i></span>
-                                                <input type="text" class="form-control" placeholder="Nombre:" aria-label="Nombre" aria-describedby="basic-addon1" />
+                                                <span className="input-group-text" id="basic-addon1">
+                                                    <i className="fa-regular fa-user" style={{ color: 'white'}}></i>
+                                                </span>
+                                                <input type="text" className="form-control" placeholder="Nombre:" aria-label="Nombre" aria-describedby="basic-addon1"/>
                                             </div>
                                             <div className="input-group mb-4">
-                                                <span className="input-group-text" id="basic-addon2"><i className="fa-regular fa-user" style={{ color: 'white' }}></i></span>
-                                                <input type="text" class="form-control" placeholder="Apellido:" aria-label="apellido" aria-describedby="basic-addon2" />
+                                                <span className="input-group-text" id="basic-addon2">
+                                                    <i className="fa-regular fa-user" style={{ color: 'white' }}></i>
+                                                </span>
+                                                <input type="text" class="form-control" placeholder="Apellido:" aria-label="apellido" aria-describedby="basic-addon2"/>
                                             </div>
                                             <div className="input-group mb-4">
-                                                <span className="input-group-text" id="basic-addon3"><i className="fa-regular fa-at" style={{ color: 'white' }}></i></span>
-                                                <input type="email" class="form-control" placeholder="email:" aria-label="email" aria-describedby="basic-addon3" />
+                                                <span className="input-group-text" id="basic-addon3">
+                                                    <i className="fa-regular fa-at" style={{ color: 'white'}}></i>
+                                                </span>
+                                                <input type="email" className="form-control" placeholder="email:" aria-label="email" aria-describedby="basic-addon3"/>
                                             </div>
                                             <div className="input-group mb-4">
-                                                <span className="input-group-text" id="basic-addon4"><i className="fa-solid fa-quote-right" style={{ color: 'white' }}></i></span>
+                                                <span className="input-group-text" id="basic-addon4">
+                                                    <i className="fa-solid fa-quote-right" style={{ color: 'white'}}></i>
+                                                </span>
                                                 <input type="text" class="form-control" placeholder="Alias:" aria-label="alias" aria-describedby="basic-addon4" />
                                             </div>
                                             <div className="input-group mb-4">
                                                 <span className="input-group-text" id="basic-addon4"><i className="fa-solid fa-key" style={{ color: 'white' }}></i></span>
-                                                <input type="password" class="form-control" placeholder="Contraseña:" aria-label="contrasena" aria-describedby="basic-addon4" />
+                                                <input type="password" className="form-control" placeholder="Contraseña:" aria-label="contrasena" aria-describedby="basic-addon4" />
                                             </div>
                                         </form>
                                     </div>
-
                                 </div>
                                 <div className="col-lg-4">
                                     <div className="db-vite">
-                                        <div class="d-grid gap-2">
+                                        <div className="d-grid gap-2">
                                             <div style={{height:'280px'}}></div>
-                                            <button class="btn btn-outline-secondary" type="button"><i className="fa-solid fa-file" style={{ color: 'white' }}></i> Cambiar Alias</button>
-                                        
-                                            <button class="btn btn-outline-secondary" type="button"><i className="fa-solid fa-unlock" style={{ color: 'white' }}></i> Cambiar Contraseña</button>
+                                            <button className="btn btn-outline-secondary" type="button">
+                                                <i className="fa-solid fa-file" style={{color: 'white'}}></i>
+                                                Cambiar Alias
+                                            </button>
+                                            <button className="btn btn-outline-secondary" type="button">
+                                                <i className="fa-solid fa-unlock" style={{color: 'white'}}></i>
+                                                Cambiar Contraseña
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -73,4 +86,6 @@ function Profile() {
     );
 }
 
+// TODO: Implementar los defaultprops
+// !Preguntar por los class -> className
 export default Profile;
