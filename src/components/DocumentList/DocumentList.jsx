@@ -22,8 +22,33 @@ function DocumentList() {
                                                                     <th scope="col">Share</th>
                                                                 </tr>
                                                             </thead>
-                                                            <div className=''>
-                                                                <tbody>
+                                                            <tbody>
+                                                                    <tr class="">
+                                                                        <td scope="row"><i className='fa fa-file'></i> Name</td>
+                                                                        <td></td>
+                                                                        <td>10-12-2020</td>
+                                                                        <td>75pag's</td>
+                                                                        <td><button type="submit">
+                                                                            <i className='fa-solid fa-envelope'></i>
+                                                                            <lord-icon src="https://cdn.lordicon.com/eeisssxp.json"
+                                                                                trigger="hover"
+                                                                                colors="primary:#121331,secondary:#1c94e0"
+                                                                                style="width:250px;height:250px">
+                                                                            </lord-icon>
+                                                                            </button> 
+                                                                            <button className='fa-solid fa-trash'></button>            
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="">
+                                                                        <td scope="row"><i className='fa fa-file'></i> Name</td>
+                                                                        <td></td>
+                                                                        <td>10-12-2020</td>
+                                                                        <td>75pag's</td>
+                                                                        <td><button type="submit">
+                                                                            <i className='fa-solid fa-envelope'></i></button> 
+                                                                            <button className='fa-solid fa-trash'></button>            
+                                                                        </td>
+                                                                    </tr>
                                                                     <tr class="">
                                                                         <td scope="row"><i className='fa fa-file'></i> Name</td>
                                                                         <td></td>
@@ -44,8 +69,17 @@ function DocumentList() {
                                                                             <button className='fa-solid fa-trash'></button>            
                                                                         </td>
                                                                     </tr>
-                                                                </tbody>
-                                                            </div>
+                                                                    <tr class="">
+                                                                        <td scope="row"><i className='fa fa-file'></i> Name</td>
+                                                                        <td></td>
+                                                                        <td>10-12-2020</td>
+                                                                        <td>75pag's</td>
+                                                                        <td><button type="submit">
+                                                                            <i className='fa-solid fa-envelope'></i></button> 
+                                                                            <button className='fa-solid fa-trash'></button>            
+                                                                        </td>
+                                                                    </tr>
+                                                            </tbody>
                                                         </table>
                                                     </div>
                                                     
