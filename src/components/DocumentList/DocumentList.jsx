@@ -11,26 +11,78 @@ function DocumentList() {
                                     <div className="p-md-5 mx-md-4">
                                        
                                                 <div className="p-md-5 mx-md-4">
-                                                    <table class="">
-                                                        <thead>
-                                                            <tr>
-                                                            <th scope="col">File</th>
-                                                            <th scope="col">Porcent</th>
-                                                            <th scope="col">Date</th>
-                                                            <th scope="col">Size</th>
-                                                            <th scope="col">Share</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody className='bg__table__list table__rounded'>
-                                                            <tr className='pb-3 pt-3'>
-                                                            <th scope="row"><img className="sizeIcons" src="./icons/document.png" alt="" /> name</th>
-                                                            <th scope="row"></th>
-                                                            <th scope="row">10-12-2022</th>
-                                                            <th scope="row">75pasg's</th>
-                                                            <th scope="row"><img className="sizeIcons me-4" src="./icons/sad.png" alt="" /><img className="sizeIcons" src="./icons/sad.png" alt="" />  </th>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                                    <div class="table-responsive">
+                                                        <table class="table bg-light">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th scope="col">File</th>
+                                                                    <th scope="col">Porcent</th>
+                                                                    <th scope="col">Date</th>
+                                                                    <th scope="col">Size</th>
+                                                                    <th scope="col">Share</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                    <tr class="">
+                                                                        <td scope="row"><i className='fa fa-file'></i> Name</td>
+                                                                        <td></td>
+                                                                        <td>10-12-2020</td>
+                                                                        <td>75pag's</td>
+                                                                        <td><button type="submit">
+                                                                            <i className='fa-solid fa-envelope'></i>
+                                                                            <lord-icon src="https://cdn.lordicon.com/eeisssxp.json"
+                                                                                trigger="hover"
+                                                                                colors="primary:#121331,secondary:#1c94e0"
+                                                                                style="width:250px;height:250px">
+                                                                            </lord-icon>
+                                                                            </button> 
+                                                                            <button className='fa-solid fa-trash'></button>            
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="">
+                                                                        <td scope="row"><i className='fa fa-file'></i> Name</td>
+                                                                        <td></td>
+                                                                        <td>10-12-2020</td>
+                                                                        <td>75pag's</td>
+                                                                        <td><button type="submit">
+                                                                            <i className='fa-solid fa-envelope'></i></button> 
+                                                                            <button className='fa-solid fa-trash'></button>            
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="">
+                                                                        <td scope="row"><i className='fa fa-file'></i> Name</td>
+                                                                        <td></td>
+                                                                        <td>10-12-2020</td>
+                                                                        <td>75pag's</td>
+                                                                        <td><button type="submit">
+                                                                            <i className='fa-solid fa-envelope'></i></button> 
+                                                                            <button className='fa-solid fa-trash'></button>            
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="">
+                                                                        <td scope="row"><i className='fa fa-file'></i> Name</td>
+                                                                        <td></td>
+                                                                        <td>10-12-2020</td>
+                                                                        <td>75pag's</td>
+                                                                        <td><button type="submit">
+                                                                            <i className='fa-solid fa-envelope'></i></button> 
+                                                                            <button className='fa-solid fa-trash'></button>            
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="">
+                                                                        <td scope="row"><i className='fa fa-file'></i> Name</td>
+                                                                        <td></td>
+                                                                        <td>10-12-2020</td>
+                                                                        <td>75pag's</td>
+                                                                        <td><button type="submit">
+                                                                            <i className='fa-solid fa-envelope'></i></button> 
+                                                                            <button className='fa-solid fa-trash'></button>            
+                                                                        </td>
+                                                                    </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    
                                                 </div>
                                             </div>    
                                 </div>

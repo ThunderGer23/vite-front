@@ -1,18 +1,12 @@
-.sizeIcons{
+.sizeIcons {
     max-width: 45px;
 }
-/* .bg__table__list{
-    background-color: aquamarine;
-} 
-.table__rounded{
-    border: 1px solid rgba(240, 239, 239, 0.135);
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-} */
-tbody{
+
+.table {}
+
+.table>tbody {
+    background: rgb(157, 248, 87);
+    background: linear-gradient(177deg, rgba(157, 248, 87, 1) 0%, rgba(167, 255, 99, 1) 25%, rgba(255, 255, 255, 1) 82%);
     border: 0 solid rgba(0, 0, 0, 0.057);
     block-size: auto;
     border-radius: 20px;
@@ -21,7 +15,8 @@ tbody{
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
-.hover-other{
-    z-index:9999;
-    margin-top:-30px;
+
+.hover-other {
+    z-index: 9999;
+    margin-top: -30px;
 }
