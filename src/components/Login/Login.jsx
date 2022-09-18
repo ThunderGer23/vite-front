@@ -12,22 +12,28 @@ function Login() {
                                         <div className="card shadow p-3 mb-5 rounded-5 bg-login-form">
                                             <div className="car-body p-md-5 mx-md-4">
                                                 <div className="text-center mb-5">
-                                                    <img className="logo" src="./img/mq19.png" alt="" style={{width:'7rem'}} />
+                                                    <img className="logo" src="./img/mq19.png" alt="" style={{width:'7rem'}}/>
                                                 </div>
                                                 <div>
                                                     <form action="" className="bt-4">
-                                                    <div className="input-group mb-4">
-                                                        <span className="input-group-text" id="basic-addon1"><i className="fa-regular fa-user" style={{color:'white'}}></i></span>
-                                                        <input type="text" class="form-control" placeholder="usuario:" aria-label="Username" aria-describedby="basic-addon1" />
-                                                    </div>
-                                                    <div className="input-group mb-4">
-                                                        <span className="input-group-text" id="basic-addon2"><i className="fa-regular fa-at" style={{color:'white'}}></i></span>
-                                                        <input type="email" class="form-control" placeholder="email:" aria-label="Username" aria-describedby="basic-addon2" />
-                                                    </div> 
-                                                    
+                                                        <div className="input-group mb-4">
+                                                            <span className="input-group-text" id="basic-addon1">
+                                                                <i className="fa-regular fa-user" style={{color:'white'}}></i>
+                                                            </span>
+                                                            <input type="text" className="form-control" placeholder="usuario:" aria-label="Username" aria-describedby="basic-addon1"/>
+                                                        </div>
+                                                        <div className="input-group mb-4">
+                                                            <span className="input-group-text" id="basic-addon2">
+                                                                <i className="fa-regular fa-at" style={{color:'white'}}></i>
+                                                            </span>
+                                                            <input type="email" class="form-control" placeholder="email:" aria-label="Username" aria-describedby="basic-addon2"/>
+                                                        </div>
                                                     </form>
-                                                    <div class="d-grid gap-2 mb-4">
-                                                        <button class="btn btn-light" type="button"><i className="fa fa-right-to-bracket orange"></i> Siguiente</button>
+                                                    <div className="d-grid gap-2 mb-4">
+                                                        <button className="btn btn-light" type="button">
+                                                            <i className="fa fa-right-to-bracket orange"></i>
+                                                            Siguiente
+                                                        </button>
                                                     </div>
                                                     <div className="text-center pt-1 mb-1">
                                                         <p><a className="">Registrarse</a></p>
@@ -38,22 +44,20 @@ function Login() {
                                                 </div>
                                             </div>
                                         </div>
-                                        
                                     </div>    
                                 </div>
                                 <div className="col-lg-6 d-flex align-items-center">
                                     <div>
-
                                         <div className="px-3 py-4 p-md-4">
                                             <div>
-                                                <ul class="nav justify-content-center  ">
-                                                    <li class="nav-item">
+                                                <ul className="nav justify-content-center">
+                                                    <li className="nav-item">
                                                         <img className="img-fluid" width="140" src="./img/mq16.png" alt="" />
                                                     </li>
-                                                    <li class="nav-item">
+                                                    <li className="nav-item">
                                                         <img className="img-fluid" width="140" src="./img/mq17.png" alt="" />
                                                     </li>
-                                                    <li class="nav-item">
+                                                    <li className="nav-item">
                                                         <img className="img-fluid" width="140" src="./img/mq18.png" alt="" />
                                                     </li>
                                                 </ul>
@@ -68,7 +72,6 @@ function Login() {
                                             </div>
                                         </div>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -79,4 +82,6 @@ function Login() {
     );
 }
 
+// TODO: Implementar los defaultprops
+// !Preguntar por los class -> className
 export default Login;
