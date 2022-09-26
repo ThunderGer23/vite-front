@@ -30,11 +30,7 @@ function DocumentList() {
                                                                         <td>75pag's</td>
                                                                         <td><button type="submit">
                                                                             <i className='fa-solid fa-envelope'></i>
-                                                                            <lord-icon src="https://cdn.lordicon.com/eeisssxp.json"
-                                                                                trigger="hover"
-                                                                                colors="primary:#121331,secondary:#1c94e0"
-                                                                                style="width:250px;height:250px">
-                                                                            </lord-icon>
+                                                                            
                                                                             </button> 
                                                                             <button className='fa-solid fa-trash'></button>            
                                                                         </td>

@@ -1,0 +1,11 @@
+.squart_Detail {
+    background: rgb(157, 248, 87);
+    background: linear-gradient(177deg, rgba(157, 248, 87, 1) 0%, rgba(167, 255, 99, 1) 25%, rgba(255, 255, 255, 1) 82%);
+    border: 0 solid rgba(0, 0, 0, 0.057);
+    block-size: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
