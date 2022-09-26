@@ -40,12 +40,12 @@ function ForgotPass() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className                                    = "col-lg-6 d-flex align-items-center">
+                                <div className = "col-lg-6 d-flex align-items-center">
                                     <div>
-
-                                        <div className                            = "px-3 py-4 p-md-4">
-                                            <div className                        = "text-center mb-2">
-                                                Descuida!        <img className   = "logo" src="./img/mq19.png" alt="" style={{ width: '7rem' }} />
+                                        <div className = "px-3 py-4 p-md-4">
+                                            <div className = "text-center mb-2">
+                                                Descuida!        
+                                                <img className = "logo" src="./img/mq19.png" alt="" style={{ width: '7rem' }} />
                                             </div>
 
                                             <h3>Bienvenido</h3>
