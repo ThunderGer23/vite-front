@@ -13,4 +13,7 @@ function Footer() {
     );
 }
 
+
+// TODO: Implementar los defaultprops
+// !Preguntar por los class -> className
 export default Footer;

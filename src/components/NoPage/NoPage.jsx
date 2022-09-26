@@ -10,8 +10,7 @@ function NoPage() {
                                     <div>
                                         <img className="mb-4" style={{width:'9rem'}} src="./icons/sad.png" alt="" /> 
                                         <h2 className="text-center text-uppercase">error 404!!</h2>                                       
-                                    </div>
-                                    
+                                    </div>                                    
                                 </div>
                             </div>
                         </div>
