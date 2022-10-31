@@ -690,6 +690,11 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+lord-icon-element@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/lord-icon-element/-/lord-icon-element-4.0.0.tgz#b3a181a77f0cf86dc63cb3b5e13605745ed0ded9"
+  integrity sha512-5VFHwnTtcD2u29POw7e57eifWCK0v1ZkQFyIJ/yyMOBiAiZL4z5PQSnEvbp0lPr9X4E1zC1pk53xuQLfIV+qTA==
+
 magic-string@^0.26.2:
   version "0.26.3"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.26.3.tgz#25840b875140f7b4785ab06bddc384270b7dd452"
