@@ -1,4 +1,4 @@
-import './DocumentList.css'
+import './DocumentList.css';
 import { Button, Col, Container, Nav, Navbar, Row, Table } from 'react-bootstrap';
 function DocumentList() {
   return (
@@ -36,19 +36,30 @@ function DocumentList() {
                   <td>10-22-2020</td>
                   <td>75pag's</td>
                   <td>
-                    <Button ><img src='./icons/envelope.png' width={'30'}/></Button>{' '}</td>
-                    <Button ><img src='./icons/trash.gif' width={'30'}/></Button>{' '}
+                    <Button variant="outline-light"><img src='./icons/envelope.png' width={'30'}/></Button>{' '}
+                    <Button variant="outline-light"><img src='./icons/trash.gif' width={'30'}/></Button>{' '}  
+                  </td>
+                   
                 </tr>
                 <tr>
-                  <td>2</td>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
+                <td><img src='./icons/document.png' width={'30'} /> Name</td>
+                  <td></td>
+                  <td>10-22-2020</td>
+                  <td>75pag's</td>
+                  <td>
+                    <Button variant="outline-light"><img src='./icons/envelope.png' width={'30'}/></Button>{' '}
+                    <Button variant="outline-light"><img src='./icons/trash.gif' width={'30'}/></Button>{' '}  
+                  </td>
                 </tr>
                 <tr>
-                  <td>3</td>
-                  <td colSpan={2}>Larry the Bird</td>
-                  <td>@twitter</td>
+                <td><img src='./icons/document.png' width={'30'} /> Name</td>
+                  <td></td>
+                  <td>10-22-2020</td>
+                  <td>75pag's</td>
+                  <td>
+                    <Button variant="outline-light"><img src='./icons/envelope.png' width={'30'}/></Button>{' '}
+                    <Button variant="outline-light"><img src='./icons/trash.gif' width={'30'}/></Button>{' '}  
+                  </td>
                 </tr>
               </tbody>
             </Table>
